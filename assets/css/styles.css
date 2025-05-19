@@ -84,7 +84,6 @@ body {
 .logo {
   font-size: 1.5em;
   font-weight: bold;
-  display: none;
 }
 /* Botón de iniciar sesión */
 .login-btn {
@@ -282,7 +281,7 @@ footer {
   }
 
   .sidebar ul li a:hover {
-    background-color: #ccc;
+    background-color: #292a2ed1;
   }
 
   .menu-icon {
@@ -322,7 +321,7 @@ footer {
     display: flex;
     justify-content: start;
     align-items: center;
-    gap: 17rem;
+    gap: 20rem;
   }
 
   .menu-icon {
@@ -334,6 +333,7 @@ footer {
     display: flex;
     font-size: 1.2em;
     font-weight: bold;
+    align-items: center;
   }
 
   .search-wrapper {
